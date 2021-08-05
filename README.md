@@ -45,9 +45,6 @@ listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 
 
 
-
-
-
 ```go
 
 // func newproc(siz int32, fn *funcval) {}
