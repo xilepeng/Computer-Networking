@@ -8,6 +8,9 @@ curl www.baidu.com:80
 
 ```go
 tcpdump -n -S -i en0  host www.baidu.com and tcp port 80
+```
+
+```go
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
 listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 //三次握手
