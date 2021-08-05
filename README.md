@@ -6,7 +6,6 @@
 curl www.baidu.com:80
 ```
 
-
 ```go
 tcpdump -n -S -i en0  host www.baidu.com and tcp port 80
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
