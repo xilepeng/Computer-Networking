@@ -5,10 +5,15 @@
 ```go
 curl www.baidu.com:80
 ```
+![截屏2021-08-05 19.04.07.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt64ast8nlj61ky0m0e0a02.jpg)
+
 
 ```go
 tcpdump -n -S -i en0  host www.baidu.com and tcp port 80
 ```
+
+![截屏2021-08-05 18.58.53.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt646jq94cj61yu0nq7pm02.jpg)
+
 
 ```go
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
@@ -33,34 +38,6 @@ listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 18:57:41.814978 IP 192.168.1.2.59676 > 103.235.46.39.80: Flags [.], ack 305456845, win 4096, length 0
 18:57:41.898743 IP 103.235.46.39.80 > 192.168.1.2.59676: Flags [R], seq 305456845, win 0, length 0
 ```
-
-
-
-
-![截屏2021-08-05 19.04.07.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt64ast8nlj61ky0m0e0a02.jpg)
-
-
-![截屏2021-08-05 18.58.53.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt646jq94cj61yu0nq7pm02.jpg)
-
-
-
-
-```go
-
-// func newproc(siz int32, fn *funcval) {}
-G（Goroutine）: 即Go协程，每个go关键字都会创建一个协程。    
-
-// sched.maxmcount = 10000
-M（Machine）： 工作线程，在Go中称为Machine。    
-
-// procs := ncpu
-P(Processor): 处理器（Go中定义的一个摡念，不是指CPU），包含运行Go代码的必要资源，也有调度goroutine的能力。 
-
-```
-
-
-
-
 
 
 
