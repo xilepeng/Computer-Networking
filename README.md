@@ -2,10 +2,6 @@
 
 ### TCP 三次握手、四次挥手
 
-```go
-curl www.baidu.com:80
-```
-![截屏2021-08-05 19.04.07.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt64ast8nlj61ky0m0e0a02.jpg)
 
 
 ```go
@@ -38,6 +34,14 @@ listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 18:57:41.814978 IP 192.168.1.2.59676 > 103.235.46.39.80: Flags [.], ack 305456845, win 4096, length 0
 18:57:41.898743 IP 103.235.46.39.80 > 192.168.1.2.59676: Flags [R], seq 305456845, win 0, length 0
 ```
+
+
+
+
+```go
+curl www.baidu.com:80
+```
+![截屏2021-08-05 19.04.07.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt64ast8nlj61ky0m0e0a02.jpg)
 
 
 
