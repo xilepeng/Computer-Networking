@@ -16,7 +16,6 @@ tcpdump -n -S -i en0  host www.baidu.com and tcp port 80
 
 ![截屏2021-08-06 10.30.48.png](http://ww1.sinaimg.cn/large/007daNw2ly1gt6vo07tx4j31z20ra7rj.jpg)
 
-![截屏2021-08-06 10.39.42.png](http://ww1.sinaimg.cn/large/007daNw2ly1gt6voctk1zj31ew0feh37.jpg)
 
 
 ```go
@@ -55,7 +54,7 @@ curl www.baidu.com:80
 ![截屏2021-08-05 19.04.07.png](http://ww1.sinaimg.cn/large/007daNw2gy1gt64ast8nlj61ky0m0e0a02.jpg)
 
 
-![截屏2021-08-06 10.44.40.png](http://ww1.sinaimg.cn/large/007daNw2ly1gt6vmys76nj30wk06adh0.jpg)
+
 
 
 ```go
