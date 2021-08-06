@@ -1,5 +1,11 @@
 # Computer-Networking
 
+
+### OSI七层网络协议
+
+![截屏2021-08-06 11.35.20.png](http://ww1.sinaimg.cn/large/007daNw2ly1gt6wyo315yj30xg0oktdo.jpg)
+
+
 ### TCP 三次握手、四次挥手
 
 
